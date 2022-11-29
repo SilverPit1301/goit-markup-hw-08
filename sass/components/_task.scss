@@ -1,0 +1,41 @@
+.task {
+    padding-bottom: 94px;
+}
+
+.task-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $main-color;
+}
+
+.task-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.task-item {
+    position: relative;
+}
+
+.task-text-bg {
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    height: 70px;
+    padding: 27px 95px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    color: $second-color;
+    position: absolute;
+    bottom: 0;
+
+}
